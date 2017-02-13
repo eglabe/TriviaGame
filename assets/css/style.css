@@ -1,4 +1,8 @@
 /*Harry Potter Font*/
+body {
+	background-image: url(../images/hp.png);
+}
+
 @font-face {
     font-family: "harrypotter";
     src: url(../images/harrypotter.ttf) format('truetype');
