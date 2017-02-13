@@ -50,7 +50,7 @@ $(document).ready(function() {
 		score.style.display = 'none';
 
 		console.log("click!");
-		start();
+		// start();
 
 	});
 
