@@ -16,7 +16,8 @@ body {
 
 h1,
 #timer,
-#results {
+#results,
+button {
 	font-family: "harrypotter";
 }
 
@@ -24,44 +25,58 @@ h1,
 #startPage,
 #game,
 #score {
+	text-align: center;
 	background-color: gold;
 	width: 500px;
 	margin: 30px auto;
 	padding: 20px;
-	border: 5px solid silver;
+	border: 5px solid navy;
 }
 
-h1,
 #startPage,
-#score,
-#results,
-button {
-	text-align: center;
+#score {
+	margin-top: 150px;
 }
 
 h1 {
 	font-size: 55px;
+	border-bottom: 2px solid navy;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 /*Timer*/
 #timer {
-	float: left;
 	position: fixed;
-	background-color: gold;
-	border: 5px solid silver;
+	bottom: 100px;
+	left: 100px;
+	background-color: darkred;
+	color: gold;
+	border: 5px solid navy;
 	padding: 25px;
-	margin-left: 10px;
-	margin-top: 10px;
 	font-size: 25px;
+	border-radius: 50%;
+	width: 200px;
+}
+
+/*Buttons*/
+button {
+	background-color: navy;
+	color: gold;
+	border: none;
+	font-size: 20px;
+	border-radius: 20%;
+	padding: 0 30px;
+	text-align: center;
 }
 
 /*Question Boxes*/
 .question {
-/*	border: 1px solid black;
-*/	margin-bottom: 10px;
+	margin-bottom: 10px;
 	padding: 10px;
 	/*background-color: lightblue;*/
 	max-width: 450px;
+	text-align: left;
 }
 
 .answers {

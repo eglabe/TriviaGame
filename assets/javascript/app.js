@@ -89,39 +89,40 @@ $(document).ready(function() {
 	var Qname = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
 
 	// class whiteboard
-	$("input[type=radio").on("click", function() {
-		var choice = $(this).parent().children("input[type=radio]:checked")
-		console.log(choice.val());
-		if (choice.val() == 1){
-			correct++;
-		} else if (choice.val() == 0){
-			incorrect++;
-		} 
-		// else {
-		// 	unanswered++
-		// }
+// 	$("input[type=radio").on("click", function() {
+// 		var choice = $(this).parent().children("input[type=radio]:checked")
+// 		console.log(choice.val());
+// 		if (choice.val() == 1){
+// 			correct++;
+// 		} else if (choice.val() == 0){
+// 			incorrect++;
+// 		} 
+// 		// else {
+// 		// 	unanswered++
+// 		// }
 
-		console.log("correct " + correct);
-		console.log("incorrect " + incorrect);
-		console.log("unanswered " + unanswered);
+// 		console.log("correct " + correct);
+// 		console.log("incorrect " + incorrect);
+// 		console.log("unanswered " + unanswered);
 
-// Display score in HTML
-	$("#correct").html("Correct: " + correct);
-	$("#incorrect").html("Incorrect: " + incorrect);
-	$("#unanswered").html("Unanswered: " + unanswered);
+// // Display score in HTML
+// 	$("#correct").html("Correct: " + correct);
+// 	$("#incorrect").html("Incorrect: " + incorrect);
+// 	$("#unanswered").html("Unanswered: " + unanswered);
 
-	  });
+// 	  });
 
-
-// $("input[type=radio").on("click", function() {
-// $('input[name="one"]:checked').val();
-// 	console.log($('input[name="one"]:checked').val())
-//   });
-
-	// alert(selected);
-	// // Calculate score function
+// CALCULATE SCORE FUNCTION
 	// for(var i = 0; i < Qname.length; i++) {
-
+	// 	// $("input[type=radio").on("click", function() {
+	// 	// 	console.log(Qname[i]);
+	// 	// $('input[name="one"]:checked').val();
+	// 	// 	console.log($('input[name="one"]:checked').val())
+	// 	//   });
+	// 	if(('input[name="Qname[i]"]:checked').val() == 1) {
+	// 		correct++;
+	// 		console.log(correct);
+	// 	}
 	// }
 
 
