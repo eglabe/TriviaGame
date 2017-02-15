@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 // Code for the timer...
     //  Set our number counter to ____.
-    var number = 40;
+    var number = 90;
 
     //  Variable that will hold our interval ID when we execute "start" function.
     var intervalId;

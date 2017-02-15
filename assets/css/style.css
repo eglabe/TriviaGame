@@ -1,24 +1,58 @@
-/*Harry Potter Font*/
-body {
-	background-image: url(../images/hp.png);
+/*Background Image*/
+body { 
+  background: url(../images/hogwarts.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
 }
 
+/*Harry Potter Font*/
 @font-face {
     font-family: "harrypotter";
     src: url(../images/harrypotter.ttf) format('truetype');
 }
 
 h1,
-#timer {
+#timer,
+#results {
 	font-family: "harrypotter";
 }
 
+/*Main Divs*/
 #startPage,
 #game,
 #score {
 	background-color: gold;
 	width: 500px;
-	margin: auto auto;
+	margin: 30px auto;
+	padding: 20px;
+	border: 5px solid silver;
+}
+
+h1,
+#startPage,
+#score,
+#results,
+button {
+	text-align: center;
+}
+
+h1 {
+	font-size: 55px;
+}
+
+/*Timer*/
+#timer {
+	float: left;
+	position: fixed;
+	background-color: gold;
+	border: 5px solid silver;
+	padding: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 25px;
 }
 
 /*Question Boxes*/
