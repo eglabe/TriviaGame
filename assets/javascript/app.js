@@ -116,6 +116,31 @@ $(document).ready(function() {
 
 
 
+
+// //attach listener to submit button
+// $("#submit").click(function (event) {
+// 	//get all the selected radio elements
+// 	var allSelect = $('.question input[type=radio]:checked');
+
+// 	var score = 0;
+
+// 	// loop through selected elements
+// 	for (var i = 0; i < allSelect.length; i++) {
+
+// 		var current = allSelect[i];
+// 		var currentAsJquery = $(current);
+
+// 		score = score + number(currentAsJquery.attr("value"));
+
+// 	}
+// });
+
+
+
+
+
+
+
 // CALCULATE SCORE FUNCTION -- jumble of unsuccessful code
 	// for(var i = 0; i < Qname.length; i++) {
 	// 	// $("input[type=radio").on("click", function() {
