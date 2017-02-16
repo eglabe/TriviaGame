@@ -48,8 +48,8 @@ h1 {
 /*Timer*/
 #timer {
 	position: fixed;
-	bottom: 100px;
-	left: 100px;
+	top: 200px;
+	right: 100px;
 	background-color: darkred;
 	color: gold;
 	border: 5px solid navy;

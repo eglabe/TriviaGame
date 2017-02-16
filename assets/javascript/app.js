@@ -69,7 +69,7 @@ $(document).ready(function() {
 
 	});
 
-	// Once the "restart" button is pushed in the game screen
+	// Once the "restart" button is pushed in the game screen -- NOT INCLUDED in this version
 	// $("#restart").on("click", function(event) {
 	// 	startPage.style.display = 'none';
 	// 	game.style.display = 'block';
@@ -86,33 +86,37 @@ $(document).ready(function() {
 	var correct = 0;
 	var incorrect = 0;
 	var unanswered = 0;
-	var Qname = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+	// var Qname = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
 
-	// class whiteboard
-// 	$("input[type=radio").on("click", function() {
-// 		var choice = $(this).parent().children("input[type=radio]:checked")
-// 		console.log(choice.val());
-// 		if (choice.val() == 1){
-// 			correct++;
-// 		} else if (choice.val() == 0){
-// 			incorrect++;
-// 		} 
-// 		// else {
-// 		// 	unanswered++
-// 		// }
+	// Code to record value of radio button user clicks on -- worked on with Brandon
+	$("input[type=radio").on("click", function() {
+		var choice = $(this).parent().children("input[type=radio]:checked")
+		console.log(choice.val());
+		if (choice.val() == 1){
+			correct++;
+		} else if (choice.val() == 0){
+			incorrect++;
+		} 
+		// else {
+		// 	unanswered++
+		// }
 
-// 		console.log("correct " + correct);
-// 		console.log("incorrect " + incorrect);
-// 		console.log("unanswered " + unanswered);
+		console.log("correct " + correct);
+		console.log("incorrect " + incorrect);
+		console.log("unanswered " + unanswered);
 
-// // Display score in HTML
-// 	$("#correct").html("Correct: " + correct);
-// 	$("#incorrect").html("Incorrect: " + incorrect);
-// 	$("#unanswered").html("Unanswered: " + unanswered);
+		// Display score in HTML
+		$("#correct").html("Correct: " + correct);
+		$("#incorrect").html("Incorrect: " + incorrect);
+		$("#unanswered").html("Unanswered: " + unanswered);
 
-// 	  });
+	  });
 
-// CALCULATE SCORE FUNCTION
+});
+
+
+
+// CALCULATE SCORE FUNCTION -- jumble of unsuccessful code
 	// for(var i = 0; i < Qname.length; i++) {
 	// 	// $("input[type=radio").on("click", function() {
 	// 	// 	console.log(Qname[i]);
@@ -124,18 +128,4 @@ $(document).ready(function() {
 	// 		console.log(correct);
 	// 	}
 	// }
-
-
-});
-
-
-
-
-
-
-
-
-
-
-
 
